@@ -8,7 +8,7 @@ const HeroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
-        <video loop className="intro-img"  source src={IntroImg}  type="video/mp4" alt="Alternative text for hero video" autoPlay />
+        <video loop autoPlay  muted className="intro-img"  source src={IntroImg}  type="video/mp4" alt="Alternative text for hero video" />
       </div>
       <div className="content">
       <h1>Expand with Cutshot Consulting</h1>
